@@ -1,0 +1,8 @@
+test_19		Arquivo com as arestas e seus pesos
+1				Número de caminhos
+1				Tipo de análise: 1 - todos os pares; 2 - pares selecionados
+				Numero de pares analisados - Pode ficar em branco caso o caso acima seja o 1
+1
+2
+3
+4
