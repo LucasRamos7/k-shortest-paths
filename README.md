@@ -10,7 +10,9 @@ Um problema conhecido e que está sendo analisado é que o programa apresenta um
 A pasta 'others' contém os programas desenvolvidos por mim para meu Projeto Final de Graduação, para utilização nas etapas anteriores e posteriores à obtenção dos k-caminhos. O Projeto utilizou estes programas para aplicar o modelo proposto por Markovic et al. (2015)[2] para o Problema de Captura de Fluxo Evasivo (PCFE - Evasive Flow-Capturing Problem).
 
 1 - GetLinks: recebe os dados do TransCAD e a lista com todas as vias da rede e gera a instância de entrada para o YenKfFull
+
 2 - CplexOut: recebe o arquivo de saída do YenKfFull e a instância de entrada e gera o modelo expandido do PCFE para otimização no CPLEX.
+
 3 - Facility Links: a partir dos nós de origem e destino monitorados na solução ótima, definidos pelo CPLEX e da lista com todas as vias da rede, gera uma lista com o ID das vias monitoradas para visualização no TransCAD.
 
 
